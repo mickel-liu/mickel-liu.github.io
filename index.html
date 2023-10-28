@@ -1,0 +1,488 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- head -->
+<head>
+  <!-- <script>
+    (function () {
+        var a_idx = 0;
+        window.onclick = function (event) {
+            var a = new Array("✨", "🤖", "🥳", "👋", "🦾", "🐽");
+
+            var heart = document.createElement("b");
+            heart.onselectstart = new Function('event.returnValue=false');
+
+            document.body.appendChild(heart).innerHTML = a[a_idx];
+            a_idx = (a_idx + 1) % a.length;
+            heart.style.cssText = "position: fixed;left:-100%;";
+
+            var f = 16, 
+                x = event.clientX - f / 2, 
+                y = event.clientY - f,
+                c = randomColor(), 
+                a = 1,
+                s = 1.2; 
+
+            var timer = setInterval(function () { 
+                if (a <= 0) {
+                    document.body.removeChild(heart);
+                    clearInterval(timer);
+                } else {
+                    heart.style.cssText = "font-size:16px;cursor: default;position: fixed;color:" +
+                        c + ";left:" + x + "px;top:" + y + "px;opacity:" + a + ";transform:scale(" +
+                        s + ");";
+
+                    y--;
+                    a -= 0.016;
+                    s += 0.002;
+                }
+            }, 15)
+
+        }
+        function randomColor() {
+
+            return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math
+            .random() * 255)) + ")";
+
+        }
+    }());
+  </script> -->
+
+  <!-- Google tag (gtag.js) -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-66DNLPJ6PY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-66DNLPJ6PY');
+  </script> -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Mickel Liu</title>
+  
+  <meta name="author" content="Mickel Liu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" type="image/png" href="images/favicon/icon.png">
+</head>
+
+<!-- bib hide -->
+<script type="text/javascript">
+  function hideshow(which){
+  if (!document.getElementById)
+  return
+  if (which.style.display=="block")
+  which.style.display="none"
+  else
+  which.style.display="block"
+  }
+</script>
+
+<!-- body -->
+<body>
+  <!-- self-intro -->
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:73%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Mickel Liu</name>
+              </p>
+              <p>
+              <intro>I am a Master's student at the <a href="https://cfcs.pku.edu.cn/english/index.htm" target="_blank">
+                  Center on Frontiers of Computing Studies (CFCS)</a>, part of the <a href="https://cs.pku.edu.cn/English/Home.htm" target="_blank">School of Computer Science</a> at <a href="https://english.pku.edu.cn/" target="_blank">Peking University</a>, where I worked on the applications of reinforcement learning. I am advised by Prof. <a href="https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang/index.htm" target="_blank">Yizhou Wang</a> and co-advised by Prof. <a href="https://www.yangyaodong.com/" target="_blank">Yaodong Yang</a>. I was a PhD candidate, but decided to move on due to personal reasons.
+                  <br><br>
+                  Between 2022 and 2023, I was a research intern at <a href="https://eng.bigai.ai/" target="_blank">Beijing Institute for General Artificial Intelligence (BIGAI)</a>, where I worked on two publications focusing on the application of multi-agent reinforcement learning (MARL) in computer vision. After that, I joined <a href="https://huggingface.co/baichuan-inc" target="_blank">Baichuan Intelligent Technology</a> as a research intern, where I worked on the alignment of large language models (LLMs). This includes RLHF and LLM-powered agents for tool-use.
+                  <br><br>
+                  Before my career as a AI researcher, I was a process engineer by trade. I received BASc in Chemical Engineering from the <a href="https://www.engineering.utoronto.ca/" target="_blank">Faculty of Applied Science and Engineering</a> at the <a href="https://www.utoronto.ca/" target="_blank">University of Toronto</a>. I was a research assistant with Prof. <a href="https://chem-eng.utoronto.ca/faculty-staff/faculty-members/e-j-acosta/" target="_blank">E.J. Acosta</a>.
+                  During my undergrad, I did a full-year internship at <a href="https://www.cenovus.com/" target="_blank">Cenovus Energy</a>, where I worked on statisical learning models to predict the maintainance cycle of oil sands process equipment.
+                  <br><br>
+
+                  <span style="color: red;">I am seeking a PhD position in AI/ML, with a specific interest in RL+NLP. Please don't hesitate to reach out If any such opportunities are available.</span>
+                  
+                <!-- <a href="https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm" target="_blank">
+                  <d>Turing Class</d></a> 
+                at the <a href="https://eecs.pku.edu.cn/" target="_blank">
+                  <d>School of Electronic Engineering and Computer Science(EECS)</d></a>,
+                   <a href="https://english.pku.edu.cn/" target="_blank"><d>Peking University</d></a> with GPA ranking <strong>1</strong>/95. I'm also a research visitor at <a href="https://www.stanford.edu/" target="_blank"><d>Stanford University</d></a>
+                and a research intern at <a href="https://bigai.ai/" target="_blank"><d>Beijing Institute for General Artificial Intelligence (BIGAI)</d></a>. 
+                I am honored to be advised by Prof. <a href="https://hughw19.github.io/" target="_blank">
+                  <d>He Wang</d></a>,  Prof. <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas J. Guibas</a> and Dr.
+                  <a href="https://siyuanhuang.com/" target="_blank"><d>Siyuan Huang</d></a>. 
+                  In addition, I am privileged to work closely with 
+                Prof. <a href="https://ericyi.github.io/" target="_blank"><d>Li Yi</d></a>, 
+                Prof. <a href="https://zsdonghao.github.io/" target="_blank"><d>Hao Dong</d></a>,
+                Prof. <a href="https://www.yangyaodong.com/" target="_blank"><d>Yaodong Yang</d></a>
+                  and  Prof. <a href="https://cfcs.pku.edu.cn/baoquan/" target="_blank"><d>Baoquan Chen</d></a>.
+                  I am also grateful to have grown up and studied with my twin brother <a href="https://gengyiran.github.io/" target="_blank">Yiran Geng</a>, which has been a truly unique and special experience for me. -->
+                </intro>
+              <p style="text-align:center">
+                <a href="mailto:mickelliu7@gmail.com" target="_blank">Email</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=2oog2ZcAAAAJ&hl=en" target="_blank">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/mickelliu" target="_blank">Github</a>&nbsp/&nbsp
+                <a href="https://twitter.com/mickel_liu" target="_blank">Twitter</a>&nbsp
+              </p>
+            </td>
+            <td style="padding:3%;width:40%;max-width:40%">
+              <img style="width:80%;max-width:80%" alt="profile photo" src="images/misc/face.png" class="hoverZoomLink">
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    </tr>
+  </tbody></table>
+
+  <!-- Research -->
+  <table style="width:100%;border:0px;border-spacing:0px 25px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <br>
+    <heading>Research</heading>
+    <br>
+    <p>
+      My research interest covers the <b>agent alignment with human interest</b>, <i>e.g.</i> RLHF of LLMs, and <b>the alignment between self-interest agents</b>, <i>e.g.</i> emergence of collaboration and agreement in a multi-agent system.
+    </p>
+      <!-- BeaverTails -->
+      <tr>
+        <td style="padding:0px;width:40%;vertical-align:middle">
+          <div class="one">
+              <img src='images/papers/PKU-BeaverTails.png' width="250">
+              <br><br>
+              <img src='images/papers/dataset-distribution.png' width="250">
+              <br>
+          </div>
+        </td>
+        <td style="padding:20px;width:60%;vertical-align:middle">
+          <a>
+            <papertitle>BeaverTails: Towards Improved Safety Alignment of LLM via a Human-Preference Dataset</papertitle>
+          </a>
+          <br>
+          Jiaming Ji*, <strong>Mickel Liu*</strong>, Juntao Dai*, Xuehai Pan, Chi Zhang, Ce Bian, Ruiyang Sun, Yizhou Wang, Yaodong Yang <ib>(*equal contribution, random ordering)</ib>
+          <br>
+          <a href="https://arxiv.org/pdf/2307.04657.pdf" target="_blank">Preprint</a>
+          /
+          <a href="https://github.com/PKU-Alignment/beavertails" target="_blank">Code</a>
+          /
+          <a href="https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF" target="_blank">Hugging Face</a>
+          <br>
+          <em><strong>NeurIPS 2023</strong>, avg. review score: 7.67</em>
+          <br>
+          <a href="https://github.com/PKU-Alignment/beavertails" target="_blank" >
+            <img src="https://img.shields.io/github/stars/PKU-Alignment/beavertails?style=for-the-badge&logo=github&color=06a283" alt="GitHub stars" style="height: 20px;vertical-align: -webkit-baseline-middle;">
+          </a>
+          <p> We present the BeaverTails dataset for safety research in large language models. Our findings show that modeling decoupled human preferences for helpfulness and harmlessness improves LLM safety without sacrificing performance. </p>
+        </td>
+      </tr>
+      <!-- Beaver -->
+            <tr>
+              <td style="padding:0px;width:30%;vertical-align:middle">
+                <div class="one">
+                    <img src='images/papers/PKU-Beaver-logo-wide.svg' width="250">
+                    <br><br>
+                    <img src='images/papers/beaver.PNG' width="250">
+                    <br>
+                </div>
+              </td>
+              <td style="padding:20px;vertical-align:middle">
+                <a>
+                  <papertitle>Safe RLHF: Safe Reinforcement Learning from Human Feedback</papertitle>
+                </a>
+                <br>
+                Josef Dai*, Xuehai Pan*, Ruiyang Sun*, Jiaming Ji*, Xinbo Xu, <strong>Mickel Liu</strong>, Yizhou Wang, Yaodong Yang <ib>(*equal contribution)</ib>
+                <br>
+                <a href="https://arxiv.org/pdf/2310.12773.pdf" target="_blank">Preprint</a>
+                /
+                <a href="https://github.com/PKU-Alignment/safe-rlhf" target="_blank">Code</a>
+                /
+                <a href="https://pku-beaver.github.io/" target="_blank">Website</a>
+                <br>
+                <em>In submission to ICLR 2024</em>
+                <br>
+                <a href="https://github.com/PKU-Alignment/safe-rlhf" target="_blank" >
+                  <img src="https://img.shields.io/github/stars/PKU-Alignment/safe-rlhf?style=for-the-badge&logo=github&color=06a283" alt="GitHub stars" style="height: 20px;vertical-align: -webkit-baseline-middle;">
+                </a>
+                <p> Building on the previous BeaverTails dataset, we introduce an RLHF algorithm with safety constraints. Using the Lagrangian method, Safe RLHF fine-tunes the balance between harmlessness and helpfulness. Our three-round fine-tuning shows better mitigation of harmful responses and improved performance over existing value-aligned algorithms.
+                <br> This work has been graciously promote-tweeted by Ahsen <a href="https://x.com/_akhaliq/status/1715231690178642179?s=20" target="_blank">(@_akhaliq)</a>.
+                </p>
+              </td>
+            </tr>
+      <!-- Baichuan -->
+      <tr>
+        <td style="padding:20px;width:30%;vertical-align:middle">
+          <div class="one">
+              <img src='images/papers/baichuan-ai.png' width="175">
+              <br><br>
+              <img src='images/papers/agent_bench.jpg' width="250">
+              <br>
+          </div>
+        </td>
+        <td style="padding:20px;vertical-align:middle">
+          <a>
+            <papertitle>Baichuan 2: Open large-scale language models</papertitle>           
+          </a>
+          <br>
+          Aiyuan Yang, Bin Xiao, Bingning Wang, Borong Zhang, Chao Yin, Chenxu Lv, Da Pan, Dian Wang, Dong Yan, Fan Yang, Fei Deng, Feng Wang, Feng Liu, Guangwei Ai, Guosheng Dong Haizhou Zhao, Hang Xu, Haoze Sun, Hongda Zhang, Hui Liu, Jiaming Ji, Jian Xie, Juntao Dai, Kun Fang, Lei Su Liang Song, Lifeng Liu, Liyun Ru, Luyao Ma, Mang Wang, <strong>Mickel Liu</strong>, MingAn Lin, Nuolan Nie, Peidong Guo, Ruiyang Sun, Tao Zhang, Tianpeng Li, Tianyu Li, Wei Cheng, Weipeng Chen, Xiangrong Zeng, Xiaochuan Wang, Xiaoxi Chen, Xin Men, Xin Yu, Xuehai Pan, Yanjun Shen, Yiding Wang, Yiyu Li, Youxin Jiang, Yuchen Gao, Yupeng Zhang, Zenan Zhou, Zhiying Wu  <ib>(alphabetical ordering)</ib>
+          <br>
+          <a href="https://arxiv.org/pdf/2309.10305.pdf" target="_blank">Preprint</a>
+          /
+          <a href="https://github.com/baichuan-inc/Baichuan2/blob/main/README_EN.md" target="_blank">Code</a>
+          /
+          <a href="https://huggingface.co/baichuan-inc" target="_blank">Hugging Face</a>
+          /
+          <a href="https://www.bloomberg.com/news/articles/2023-10-17/alibaba-tencent-join-funding-for-chinese-ai-high-flyer-baichuan?utm_source=website&utm_medium=share&utm_campaign=copy" target="_blank">Bloomberg ($1bn valuation)</a>
+          <br>
+          <em>Technical report in public archive</em>
+          <br>
+          <a href="https://github.com/baichuan-inc/Baichuan2/blob/main/README_EN.md" target="_blank" >
+            <img src="https://img.shields.io/github/stars/baichuan-inc/Baichuan2?style=for-the-badge&logo=github&color=06a283" alt="GitHub stars" style="height: 20px;vertical-align: -webkit-baseline-middle;">
+          </a>
+          <p></p>
+          <p> During my time at Baichuan, I have participated in the open-sourcing of our LLMs, which were trained from scratch on 2.6 trillion tokens, and credited as an author to in the corresponding technical report. 
+          <br>Baichuan 2 matches or exceeds the performance of other open-source models in its class across various public benchmarks, including MMLU, CMMLU, GSM8K, and HumanEval. Notably, Baichuan2-13B-Chat achieved the highest score on the SuperCLUE-agent benchmark among all open-sourced models.</p>
+        </td>
+      </tr>
+      <!-- ActivePose -->
+      <tr>
+        <td style="padding:20px;width:30%;vertical-align:middle">
+          <div class="one">
+              <img src='images/papers/concept_art.jpg' width="250">
+              <br>
+              <br>
+              <img src='images/papers/school_gym_test_demo.gif' width="250">
+              <br>
+          </div>
+        </td>
+        <td style="padding:20px;vertical-align:middle">
+          <a>
+            <papertitle>Proactive Multi-Camera Collaboration For 3D Human Pose Estimation</papertitle>
+          </a>
+          <br>
+          Hai Ci*, <strong>Mickel Liu*</strong>, Xuehai Pan*, Fangwei Zhong, Yizhou Wang <ib>(*equal contribution)</ib>
+          <br>
+          <a href="https://openreview.net/pdf?id=CPIy9TWFYBG" target="_blank">Proceeding</a>
+          /
+          <a href="https://github.com/Embracing/Active3DPose" target="_blank">Code</a>
+          /
+          <a href="https://sites.google.com/view/active3dpose/home" target="_blank">Website</a>
+          <br>
+          <em><strong>ICLR 2023</strong></em>
+          <br>
+          <a href="https://github.com/Embracing/Active3DPose" target="_blank" >
+            <img src="https://img.shields.io/github/stars/Embracing/Active3DPose?style=for-the-badge&logo=github&color=06a283" alt="GitHub stars" style="height: 20px;vertical-align: -webkit-baseline-middle;">
+          </a>
+          <br>
+          <p></p>
+          <p>Active3DPose Presents a multi-agent reinforcement learning (MARL) scheme for proactive Multi-Camera Collaboration in 3D Human Pose Estimation in dynamic human crowds. Aerial cameras are decentralized, self-interest agents, but need to collaborate to complete the given task. We proposed a reward structure inspired by the solution concept of Shapley value that helps facilitating the process of collaboration. The simulation environment is built using UnrealEngine and we used distributive RL framework Ray RLlib to train our agents.</p>
+        </td>
+      </tr>
+      <!-- MATE -->
+      <tr>
+        <td style="padding:20px;width:30%;vertical-align:middle">
+          <div class="one">
+              <img src='images/papers/mate.gif' width="250">
+          </div>
+        </td>
+        <td style="padding:20px;vertical-align:middle">
+          <a>
+            <papertitle>MATE: Benchmarking multi-agent reinforcement learning in distributed target coverage control</papertitle>
+          </a>
+          <br>
+          Xuehai Pan, <strong>Mickel Liu</strong>, Fangwei Zhong, Yaodong Yang, Song-Chun Zhu, Yizhou Wang
+          <br>
+          <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/b2a1c152f14a4b842a9ddb3bd84c62a1-Abstract-Datasets_and_Benchmarks.html" target="_blank">Proceeding</a>
+          /
+          <a href="https://github.com/XuehaiPan/mate" target="_blank">Code</a>
+          /
+          <a href="https://mate-gym.readthedocs.io/en/latest/" target="_blank">Doc</a>
+          <br>
+          <em><strong>NeurIPS 2022</strong></em>
+          <br>
+          <a href="https://github.com/XuehaiPan/mate" target="_blank" >
+            <img src="https://img.shields.io/github/stars/XuehaiPan/mate?style=for-the-badge&logo=github&color=06a283" alt="GitHub stars" style="height: 20px;vertical-align: -webkit-baseline-middle;">
+          </a>
+          <br>
+          <p> We introduce the Multi-Agent Tracking Environment (MATE), a novel multi-agent environment simulates the target coverage control problems in the real world. MATE hosts an asymmetric cooperative-competitive game consisting of two groups of learning agents — "cameras" and "targets" — with opposing interests. This process of co-evolution between cameras and targets helps to realize a less exploitable camera network.</p>
+        </td>
+      </tr>
+      <!-- OmniSafe -->
+      <tr>
+        <td style="padding:20px;width:30%;vertical-align:middle">
+          <div class="one">
+            <img src='images/papers/omni-logo.png' width="250">
+            <br>
+            <br>
+            <img src='images/papers/data-flow.png' width="250">
+            <br>
+          </div>
+        </td>
+        <td style="padding:20px;vertical-align:middle">
+          <a>
+            <papertitle>OmniSafe: An Infrastructure for Accelerating Safe Reinforcement Learning Research</papertitle>
+          </a>
+          <br>
+          Jiaming Ji*, Jiayi Zhou*, Borong Zhang*, Juntao Dai, Xuehai Pan, Ruiyang Sun, Weidong Huang, Yiran Geng, <strong>Mickel Liu</strong>, Yaodong Yang <ib>(*core developers)</ib>
+          <br>
+          <a href="https://arxiv.org/pdf/2305.09304.pdf" target="_blank">Preprint</a>
+          /
+          <a href="https://github.com/PKU-Alignment/omnisafe" target="_blank">Code</a>
+          /
+          <a href="https://www.omnisafe.ai/en/latest/" target="_blank">Website</a>
+          <br>
+          <em>In submission to JMLR</em>          
+          <br>
+            <a href="https://github.com/PKU-Alignment/omnisafe" target="_blank" >
+              <img src="https://img.shields.io/github/stars/PKU-Alignment/omnisafe?style=for-the-badge&logo=github&color=06a283" alt="GitHub stars" style="height: 20px;vertical-align: -webkit-baseline-middle;">
+            </a>
+          <br>
+          <p></p>
+          <p> We introduce a framework designed to expedite SafeRL research endeavors. Our framework encompasses an collection of algorithms spanning different RL domains and places heavy emphasis on safety elements. </p>
+        </td>
+      </tr>  
+    </tbody>
+  </table>
+
+  <!-- Experience -->
+<table width="100%" align="center" border="0" cellpadding="5"><tbody>
+      <br>
+          <heading>Experience</heading>
+      <br>
+      <tr>
+        <td colspan="2">
+          <br><heading class="heading2">(...as a researcher in A.I.)</heading>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-left:18px;padding-right:20px;width:20%;vertical-align:middle"><img src="images/logos/baichuan.png", width="105"></td>
+        <td width="100%" valign="center">
+          <strong><a href="https://huggingface.co/baichuan-inc" target="_blank"><papertitle>Baichuan Intelligent Technology</papertitle> </a></strong>
+          <br> <em>2023.06 - Present</em>  
+          <br> <strong>Research Intern</strong>
+          <br> RLHF & Alignment, Large Language Models (LLM)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-left:18px;padding-right:20px;width:20%;vertical-align:middle"><img src="images/logos/Bigai.png", width="105"></td>
+        <td width="100%" valign="center">
+          <strong><a href="https://eng.bigai.ai/" target="_blank"><papertitle>Beijing Institute for General Artificial Intelligence (BIGAI)</papertitle> </a></strong>
+          <br> <em>2022.03 - 2023.06</em>  
+          <br> <strong>Research Intern</strong>
+          <br> Multi-agent Learning (MAL), Reinfocement Learning (RL)
+          <br> Supervisor: <a href="https://fangweizhong.xyz/" target="_blank">Fangwei Zhong</a>
+          <br> Advisor: Prof. <a href="https://zhusongchun.net/" target="_blank">Song-Chun Zhu</a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+            <br>
+            <heading class="heading2">(...as a process engineer)</heading>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-left:18px;padding-right:20px;width:20%;vertical-align:middle"><img src="images/logos/cenovus.png", width="105"></td>
+        <td width="100%" valign="center">
+          <strong><a href="https://eng.bigai.ai/" target="_blank"><papertitle>Cenovus Energy</papertitle> </a></strong>
+          <br> <em>2018.09 - 2019.08</em>  
+          <br> <strong>Co-op Student</strong>, Process Control & Automation
+          <br> Supervisor: <a href="https://linkedin.com/in/rangas" target="_blank">Ranga Seshardi</a> (Sr Mgr) 
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-left:18px;padding-right:20px;width:20%;vertical-align:middle"><img src="images/logos/Utoronto.png", width="105"></td>
+        <td width="100%" valign="center">
+          <strong><a><papertitle>University of Toronto - St. George</papertitle> </a></strong>
+          <br> <em>2018.05 - 2018.08</em>  
+          <br> <strong>Summer Research Student</strong>, Formulation Engineering Laboratory
+          <br> Supervisor: Prof. <a href="https://chem-eng.utoronto.ca/faculty-staff/faculty-members/e-j-acosta/" target="_blank">E.J. Acosta</a> 
+        </td>
+      </tr>
+  </tbody>
+</table>
+
+  <!-- Education -->
+  <table width="100%" align="center" border="0" cellpadding="10"><tbody>
+    <br>
+        <heading>Education</heading>
+    <br>
+    <br>
+    <tr>
+      <td style="padding-left:18px;padding-right:20px;width:20%;vertical-align:middle"><img src="images/logos/PKU.png", width="105"></td>
+      <td width="100%" valign="center">
+        <strong><a><papertitle>Peking University (PKU)</papertitle></a></strong>
+        <br> <em>2020.09 - 2024.01 (Expected)</em><br>  
+        <strong>MS in Computer Science</strong> (transitioned from Ph.D. Candidate)<br> 
+        <a href="https://cfcs.pku.edu.cn/english/index.htm" target="_blank">Center on Frontiers of Computing Studies (CFCS), School of CS </a> 
+        <br> Advisors: Prof. <a href="https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang/index.htm" target="_blank">Yizhou Wang</a>, Prof. <a href="https://www.yangyaodong.com/" target="_blank">Yaodong Yang</a> (co-advised)
+      </td>
+    </tr>
+    <tr>
+      <td style="padding-left:18px;padding-right:20px;width:20%;vertical-align:middle"><img src="images/logos/Utoronto.png", width="105"></td>
+      <td width="100%" valign="center">
+        <strong><a><papertitle>University of Toronto - St. George</papertitle></a></strong>
+        <br> <em>2015.09 - 2020.07</em><br>  
+        <strong>BASc in Chemical Engineering</strong><br> 
+        <a href="https://www.engineering.utoronto.ca/" target="_blank">Faculty of Applied Science and Engineering</a> 
+        <!-- <br> <em>2023.06 - 2023.09 (expected)</em> <br> <strong>Student of</strong> <a href="https://engineering.stanford.edu/students-academics/programs/global-engineering-programs/chinese-ugvr/">UGVR Program </a>  -->
+        <br> Minored in <a href="https://undergrad.engineering.utoronto.ca/academics-registration/minors-certificates/undergraduate-engineering-minors/minor-in-artificial-intelligence/" target="_blank">Artificial Intelligence Engineering</a>
+      </td>
+    </tr> 
+
+</tbody></table>
+    <!-- Services -->
+    <table style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr>
+        <br>
+        <heading>Miscellanea</heading>
+        <br>
+      <td style="padding:0px;width:100%;vertical-align:middle">
+        <p>
+          <li>Conference Reviewer: ICML 2022, NeurIPS 2022/23, ICLR 2023/24 </li>
+        </p>
+        <p>
+          <li>Recipient of CSC Fellowship from 2021 to 2023 <i>(est. $18k/yr)</i> </li>
+        </p>
+        <p>
+          <li>Recipient of University Of Toronto Schloar Grant in 2020 <i>(est. $5k)</i> </li>
+        </p>
+        <!-- <p>
+          <li>Dean's Honour List 2019</li>
+        </p> -->
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!-- Selected Awards and Honors -->
+  <!-- <table style="width:90%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+          <br>
+          <heading>Selected Awards and Honors</heading>
+          <br>
+
+        <td style="padding:0px;width:100%;vertical-align:middle">
+          
+          <p>
+            <li>2023: ICCV Best Paper Award (Marr Prize) Finalist</li>
+          </p>
+          
+        </td>
+      </tr>
+  </tbody></table> -->
+
+  
+  <!-- Aknowledgements -->
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <!-- <br> -->
+      <!-- <br> -->
+      <hr>
+        <p style="text-align:center">
+          This homepage took inspirations (and codes) from <a href="https://jonbarron.info/">Jon Barron</a>'s, <a href="https://leonidk.com/">Leonid Keselman</a>'s and <a href="https://geng-haoran.github.io/">Haorang Geng</a>'s website.
+        </p>
+      </td>
+      </tr>
+  </tbody></table>
+ 
+</body>
+</html>
